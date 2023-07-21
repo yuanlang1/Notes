@@ -119,7 +119,8 @@ Markdown Preview Enhanced 拓展功能：
 
 [我的笔记](https://notes.orangex4.cool/?git=github&github=yuanlang1/Notestoken=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)  
 
-**图片**: paste image 插件下,直接使用$ctrl+alt+v$ 即可将图片保存到images文件夹中,并生成地址
+**图片**: paste image 插件下,直接使用$ctrl+alt+v$ 即可将图片保存到images文件夹中,并生成地址  
+
 ![图片](images/2023-07-20-21-35-08.png)  
 
 ---
