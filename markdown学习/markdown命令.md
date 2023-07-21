@@ -1,5 +1,7 @@
 # markdown 语法  
 
+$生成目录L：使用快捷键command+shift+P（windows用户ctrl+shift+P），输入Markdown All in One: Create Table of Contents并回车$
+
 - [markdown 语法](#markdown-语法)
   - [一级标题](#一级标题)
   - [二级标题](#二级标题)
@@ -125,8 +127,11 @@ Markdown Preview Enhanced 拓展功能：
 
 **图片**: paste image 插件下,直接使用$ctrl+alt+v$ 即可将图片保存到images文件夹中,并生成地址  
 
+![图片](images/2023-07-20-21-35-08.png)  
 
-Z![图片](images/2023-07-20-21-35-08.png)  
+$使用尖括号可以很方便地把URL或者email地址变成可点击的链接$
+$<fake@example.com>$:<fake@example.com>  
+$<https://markdown.com.cn>$:<https://markdown.com.cn>
 
 ---
 
