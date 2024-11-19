@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="" method="get">
+    <!-- 当用户点击提交按钮是 会触发form表单的数据提交的操作收集当前form标签所有的带有name属性的表单控件值 -->
+    <table>
+      <tr>
+        <td>姓名：</td>
+        <td>
+          <input type="text" name="username">
+        </td>
+      </tr>
+      <tr>
+        <td>密码：</td>
+        <td>
+          <input type="password" 
+                 name="password"
+                 placeholder="请输入密码"
+                 maxlength="10">
+        </td>
+      </tr>
+    </table>    
+    <p>
+      性别：
+      <!-- 只有name属性相同的按钮才有单选效果 -->
+      <input type="radio" name="gender" value="0" checked>男
+      <input type="radio" name="gender" value="1">女
+    </p>
+    <p>
+      爱好：
+      <input type="checkbox" name="hobby" value="111" checked>
+      读书
+      <input type="checkbox" name="hobby" value="112">
+      听音乐
+      <input type="checkbox" name="hobby" value="113" checked>
+      敲代码
+    </p>
+    <p>
+      <!-- size 菜单可以显示选项数量 大于1时 下拉菜单会变成滚动菜单 -->
+      <!-- multiple 可以按ctrl 或 shift 点击选项实现多选 -->
+      <!-- 下拉菜单中默认选择第一个option 可以通过selected指定 -->
+      地址：
+      <select name="address" size="2" multiple>
+        <option value="101" selected>北京</option>
+        <option value="102">南京</option>
+        <option value="103">上海</option>
+      </select>
+    </p>
+    <p>
+      头像
+      <input type="file">
+    </p>
+    <p>
+      建议：
+          <textarea name="" id="" cols="30" rows="10" style="resize:none">
+            hello world
+          </textarea>
+    </p>
+    <p>
+      <input type="submit" value="保存">
+      <input type="reset">
+      <input type="button" value="普通按钮">
+    </p>
+  </form>
+</body>
+</html>
